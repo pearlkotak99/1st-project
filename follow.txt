@@ -1,0 +1,120 @@
+{
+    "_id" : ObjectId("5d1f2ff57dd4f25d64faf9a9"),
+    "name" : "omkar",
+    "userId" : 12,
+    "setting" : {
+        "cp" : "enable",
+        "jp" : "enable",
+        "g" : "enable"
+    }
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5d1f30167dd4f25d64faf9b3"),
+    "name" : "pearl",
+    "userId" : 23,
+    "setting" : {
+        "cp" : "enable",
+        "jp" : "enable",
+        "g" : "enable"
+    }
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5d1f3a9333c3981d285bc97b"),
+    "name" : "omkar1",
+    "userId" : 123,
+    "setting" : {
+        "cp" : "enable",
+        "jp" : "enable",
+        "g" : "enable"
+    }
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("5d26d75f5865301ff8934271"),
+    "name" : "pearl2",
+    "userId" : 12,
+    "setting" : {
+        "cp" : "enable",
+        "jp" : "enable",
+        "g" : "enable"
+    }
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("5d26dbd9e6d27d457c97daef"),
+    "name" : "pearl2",
+    "userId" : 24,
+    "setting" : {
+        "cp" : "enable",
+        "jp" : "enable",
+        "g" : "enable"
+    }
+}
+
+
+
+
+/* 1 */
+{
+    "_id" : ObjectId("5d2441c77dd4f25d64fb4be3"),
+    "userId" : ObjectId("5d1f2ff57dd4f25d64faf9a9"),
+    "following" : [ 
+        {
+            "userId" : ObjectId("5d1f2ff57dd4f25d64faf9a9")
+        }, 
+        {
+            "userId" : ObjectId("5d1f30167dd4f25d64faf9b3")
+        }, 
+        {
+            "userId" : ObjectId("5d1f3a9333c3981d285bc97b")
+        }
+    ],
+    "follower" : [ 
+        {
+            "userId" : ObjectId("5d1f30167dd4f25d64faf9b3")
+        }, 
+        {
+            "userId" : ObjectId("5d1f2ff57dd4f25d64faf9a9")
+        }
+    ]
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5d244c197dd4f25d64fb4fc7"),
+    "userId" : ObjectId("5d1f30167dd4f25d64faf9b3"),
+    "following" : [ 
+        {
+            "userId" : ObjectId("5d1f2ff57dd4f25d64faf9a9")
+        }, 
+        {
+            "userId" : ObjectId("5d1f30167dd4f25d64faf9b3")
+        }
+    ],
+    "follower" : [ 
+        {
+            "userId" : ObjectId("5d1f30167dd4f25d64faf9b3")
+        }, 
+        {
+            "userId" : ObjectId("5d1f2ff57dd4f25d64faf9a9")
+        }
+    ]
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5d247e2173b0e2314859dc85"),
+    "userId" : ObjectId("5d1f3a9333c3981d285bc97b"),
+    "following" : [],
+    "follower" : [ 
+        {
+            "userId" : ObjectId("5d1f2ff57dd4f25d64faf9a9")
+        }
+    ]
+}
